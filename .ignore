@@ -1,0 +1,79 @@
+
+// const getCall = async () => {
+//   try {
+//     const config = {
+//       baseURL: 'http://localhost:3000',
+//       timeout: 1000,
+//       headers: { mode: 'testing' },
+//     };
+
+//     const request = new RequestHandler(config);
+//     const options = {
+//       headers: {
+//         app_name: 'retailerApp',
+//         app_version_code: 101,
+//         Authorization: 'Bearer <token>',
+//       },
+//     };
+//     const response = await request.get('/', options);
+//     console.log(response.data);
+//   } catch (err) {
+//     console.info('err', err.name);
+//   }
+// };
+
+// const deleteCall = async () => {
+//   try {
+//     const config = {
+//       baseURL: 'http://localhost:3000',
+//       timeout: 1000,
+//       headers: { mode: 'testing' },
+//     };
+
+//     const request = new RequestHandler(config);
+//     const data = {
+//       a: 1,
+//       b: 2,
+//     };
+//     const headers = {
+//       app_name: 'retailerApp',
+//       app_version_code: 101,
+//       Authorization: 'Bearer <token>',
+//     };
+//     const response = await request.delete('/', data, headers);
+//     console.log(response.data);
+//   } catch (err) {
+//     console.info('err', err.name);
+//   }
+// };
+
+// const postCall = async () => {
+//   // putCall
+//   try {
+//     const config = {
+//       baseURL: 'http://localhost:3000',
+//       timeout: 1000,
+//       headers: { mode: 'testing' },
+//     };
+
+//     const request = new RequestHandler(config);
+//     const data = {
+//       a: 1,
+//       b: 2,
+//     };
+//     const options = {
+//       params: {
+//         c: 3,
+//       },
+//       headers: {
+//         app_name: 'retailerApp',
+//         app_version_code: 101,
+//         Authorization: 'Bearer <token>',
+//       },
+//     };
+//     const response = await request.post('/', data, options);
+//     console.log(response.data);
+//   } catch (err) {
+//     console.info('err', err.name);
+//   }
+// };
