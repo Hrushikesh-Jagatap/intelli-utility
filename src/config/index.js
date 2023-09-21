@@ -4,7 +4,7 @@ const LOAD_BALANCER = AccessEnv('LOAD_BALANCER', 'https://uat-lb.sarvm.internal'
 const VERBOSE_LOGGING = AccessEnv('VERBOSE_LOGGING', 'false') === 'true';
 
 const LOGGER_LEVEL = AccessEnv('PINO_LOG_LEVEL', 'info');
-const LOGGER_MODULE_NAME = AccessEnv('HOST_SERVICE_NAME');
+const LOGGER_MODULE_NAME = AccessEnv('HOST_SERVICE_NAME','intel');
 const LOGGER_TRANSPORT_TYPE = AccessEnv('PINO_LOGGER_TRANSPORT_TYPE', 'pino/file');
 const PINO_LOGGER_DESTINATION =
   AccessEnv('PINO_LOGGER_DESTINATION', '1') === '1' ? 1 : AccessEnv('PINO_LOGGER_DESTINATION');
