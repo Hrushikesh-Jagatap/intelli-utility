@@ -28,7 +28,7 @@ class RequestHandler {
     const options = {
       headers: {
         Authorization: `Bearer ${systemToken}`,
-        sessionid: getNamespace(sessionName).get('sessionId'),
+        // sessionid: getNamespace(sessionName).get('sessionId'),
       },
     };
     const response = await axios.post(url, data, options);
